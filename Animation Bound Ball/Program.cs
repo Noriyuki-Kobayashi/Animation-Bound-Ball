@@ -11,6 +11,9 @@ namespace Animation_Bound_Ball
             int speed = 120; //コマ間隔時間をmsec単位で指定します。
             int i = 0;
 
+            Console.WriteLine("何かキーを押すと動きます。");
+            Console.ReadKey();
+
             do
             {
 
