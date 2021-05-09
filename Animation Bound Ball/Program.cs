@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace Animation_Bound_Ball
 {
@@ -21,11 +22,11 @@ namespace Animation_Bound_Ball
                 Console.WriteLine("\n\n\n               (*^▽^)_");
                 Console.WriteLine("                       o\n\n");
 
-                System.Threading.Thread.Sleep(speed); //指定した時間だけスレッドを一時停止します。
+                Thread.Sleep(speed); //指定した時間だけスレッドを一時停止します。
 
                 Console.Clear();
                 Console.WriteLine("\n\n               (*^▽^)/o\n\n\n\n");
-                System.Threading.Thread.Sleep(speed); //指定した時間だけスレッドを一時停止します。
+                Thread.Sleep(speed); //指定した時間だけスレッドを一時停止します。
 
                 i++;
 
