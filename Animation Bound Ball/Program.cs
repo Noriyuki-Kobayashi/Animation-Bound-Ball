@@ -1,4 +1,8 @@
-﻿using System;
+﻿//Console画面でボールを弾ませるアニメです。
+//Consoleコマンドの学習用に作成しました。
+//Visual Studio 2022 にアップデート 2021-11-9
+
+using System;
 using System.Threading;
 
 namespace Animation_Bound_Ball
